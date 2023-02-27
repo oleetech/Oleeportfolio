@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    background-color: #AED6F1;
+}
+
+.resume-content{
+min-height: 100vh;
+width: 80%;
+margin: 2rem;
+display: grid;
+grid-template-columns: 7,1fr;
+}
+
+.left-section{
+grid-column: span 2;
+height: 100%;
+background-color: #34495E;
+}
+
+.left-section-content{
+padding: 2rem 2rem;
+}
+.right-section{
+grid-column: span 5;
+height: 100%;
+background-color: #D6DBDF; 
+}
+
+.right-section-content{
+    padding: 2rem 2rem;
+}
